@@ -4,7 +4,7 @@ using namespace std;
 
 class A {
 public:
-	// TODO
+	A(int m = 0) : m(m) {}
 private:
 	int m;
 };

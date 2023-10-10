@@ -13,4 +13,4 @@ struct S {
 		f(); // (. . .)
 		fc(); // (. . .)
 	}
-};
+};int main() {	S f();	S fc();	S g();	S gc();	return 0;}
