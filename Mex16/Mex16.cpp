@@ -5,10 +5,12 @@ using namespace std;
 struct Point { int x, y; };
 // 후위 감소 연산자 --
 inline const Point operator--(Point& pt, int) { 
-	Point st = pt;
+	return Point(x--, y--);
+	
+	/*Point st = pt;
 	pt.x--;
 	pt.y--;
-	return st;
+	return st;*/
 }
 
 // 출력 연산자 <<

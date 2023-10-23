@@ -10,4 +10,4 @@ struct S {
 		return this;
 	}
 	int m;
-};
+};
